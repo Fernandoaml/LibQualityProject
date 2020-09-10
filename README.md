@@ -45,3 +45,50 @@ Separate the business rule from the INFRA layer. which are the tools chosen to i
 
 Dependency Inversion Principle: instead of my repository know what the repository format are dealing. We pass this responsibility to the routes. Applying the interface and ensuring the L of solid. Basicly.
 
+### Libraries:
+
+* Axios: Promise based HTTP client for the browser and node.js
+* Cors: Node.js CORS middleware.
+* Date-fns: Modern JavaScript date utility library.
+* Dotenv: Loads environment variables from .env file.
+* Express: Fast, unopinionated, minimalist web framework. REST.
+* Math-stats: Statistics for your numbers.
+* Pg: PostgreSQL client - pure javascript & libpq with the same API.
+* Reflect-metadata: Polyfill for Metadata Reflection API.
+* Tsyringe: Lightweight dependency injection container for JavaScript/TypeScript.
+* Typeorm: Data-Mapper ORM for TypeScript, ES7, ES6, ES5. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, MongoDB databases.
+* Uuid: RFC4122 \(v1, v4, and v5\) UUIDs.
+
+### Front-End
+
+The front-end was build with react with out frameworks, i segmented every page with your component and stylesheet writed with styled components. Ready to grow.
+
+### Data Base
+
+I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this library has many protocol to improve communications behind the scenes\). Which reduces human error and openings for sql inject. And the better thens is the possibility the change the database vendor.
+
+## Getting Start
+
+1. You should be have the LTS version of the node.
+   1. [https://nodejs.org/en/](https://nodejs.org/en/)
+      1. Ex: 12.18.3 LTS
+2. After the node js install, you should be install the yarn Package Manager
+   1. npm install -g yarn
+3. You need the docker on you computer.
+   1. [https://www.docker.com/get-started](https://www.docker.com/get-started)
+   2. You should run this command on command line interface with access to docker \( docker run --name some-postgres -e POSTGRES\_PASSWORD=**mysecretpassword** -d postgres \)
+      1. You must have change the password and input then on JSON file to back end access the postgres.
+4. You need clone the back end project:
+
+   1. [https://github.com/Fernandoaml/LibQuality\_BackEnd/](https://github.com/Fernandoaml/LibQuality_BackEnd/)
+   2. go to the folder and on command line interface you must be run this command: **yarn**
+
+   \*\*\*\*
+
+   1. Now we will change the typeorm credentials. As it is a JSON file, we will need to change the values. And for that reason, we did not implement it for them .env file  .  ![](.gitbook/assets/screenshot_2.png) 
+   2. We need change the name of the file **.env copy** to **.env.**
+      1. We need insert the Github api key **USER\_AND\_KEY\_API="githubusername:apikeyhere"** ![](.gitbook/assets/screenshot_3.png) 
+   3. 
+
+
+
