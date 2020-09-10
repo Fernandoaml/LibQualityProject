@@ -80,7 +80,7 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
    1. [https://www.docker.com/get-started](https://www.docker.com/get-started)
    2. You should run this command on command line interface with access to docker \( docker run --name some-postgres -e POSTGRES\_PASSWORD=**mysecretpassword** -d postgres \)
       1. You must have change the password and input then on JSON file to back end access the postgres.
-4. You need clone the back end project:
+4. **You need clone the back end project:**
 
    1. [https://github.com/Fernandoaml/LibQuality\_BackEnd/](https://github.com/Fernandoaml/LibQuality_BackEnd/)
    2. Go to the folder and on command line interface you must be run this command: **yarn**
@@ -93,7 +93,9 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
    3. **After run: yarn typeorm migration:run** 
    4. **After run: yarn dev:server**
 
-5. You need clone the front end project:
+   \*\*\*\*
+
+5. **You need clone the front end project:**
    1. [https://github.com/Fernandoaml/LibQuality\_FrontEnd](https://github.com/Fernandoaml/LibQuality_FrontEnd)
    2. Go to the folder and on command line interface you must be run this command: **yarn**
    3. **After run: yarn start**
