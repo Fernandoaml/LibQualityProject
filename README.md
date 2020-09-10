@@ -67,6 +67,8 @@ The front-end was build with react with out frameworks, i segmented every page w
 
 I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this library has many protocol to improve communications behind the scenes\). Which reduces human error and openings for sql inject. And the better thens is the possibility the change the database vendor.
 
+![](.gitbook/assets/screenshot_4.png)
+
 ## Getting Start
 
 1. You should be have the LTS version of the node.
@@ -81,14 +83,24 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
 4. You need clone the back end project:
 
    1. [https://github.com/Fernandoaml/LibQuality\_BackEnd/](https://github.com/Fernandoaml/LibQuality_BackEnd/)
-   2. go to the folder and on command line interface you must be run this command: **yarn**
+   2. Go to the folder and on command line interface you must be run this command: **yarn**
 
    \*\*\*\*
 
    1. Now we will change the typeorm credentials. As it is a JSON file, we will need to change the values. And for that reason, we did not implement it for them .env file  .  ![](.gitbook/assets/screenshot_2.png) 
    2. We need change the name of the file **.env copy** to **.env.**
       1. We need insert the Github api key **USER\_AND\_KEY\_API="githubusername:apikeyhere"** ![](.gitbook/assets/screenshot_3.png) 
-   3. 
+   3. **After run: yarn typeorm migration:run** 
+   4. **After run: yarn dev:server**
+
+5. You need clone the front end project:
+   1. [https://github.com/Fernandoaml/LibQuality\_FrontEnd](https://github.com/Fernandoaml/LibQuality_FrontEnd)
+   2. Go to the folder and on command line interface you must be run this command: **yarn**
+   3. **After run: yarn start**
+   4. Access the front end 
+      * [http://localhost:3000/](http://localhost:3000/)
+
+\*\*\*\*
 
 
 
