@@ -118,5 +118,5 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
 
 * **Front End:**
   * I will implement the test with Cypress library.
-  * ....
+  * To do: End to End E2E Test.........................
 
