@@ -13,11 +13,11 @@ description: >-
     * You need inform the full name Ex: facebook/react \(owner/project name\).
   * After the search the project will appear like a list under the search field. To see the all statistics and graphs you should click on project box.
 
-![Front-End](.gitbook/assets/image.png)
+![Front-End](.gitbook/assets/image%20%281%29.png)
 
 ![](.gitbook/assets/screenshot_1.png)
 
-### Architecture, Technologies and Patterns.
+## Architecture, Technologies and Patterns.
 
 this project was thought to grow health to fulfill new requirements. If need change any third-party the system already ready to be changed.
 
@@ -100,7 +100,21 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
    4. Access the front end 
       * [http://localhost:3000/](http://localhost:3000/)
 
-\*\*\*\*
+## **Tests:**
 
+* **Back End:**
+  * To Back end i used the JEST to make the TDD aplying unity tests
+  * If you're with command line opened, you must open a new interface of command line in the same folder and run the next command.
+    * **yarn test**
 
+![](.gitbook/assets/screenshot_5.png)
+
+* **To see the coverage report \(Lcov-report\) you need to open the following file**:
+  * \libquality\_backend\coverage\lcov-report\index.html
+
+![](.gitbook/assets/screenshot_6.png)
+
+* **Front End:**
+  * I will implement the test with Cypress library.
+  * ....
 
