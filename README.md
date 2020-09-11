@@ -84,7 +84,7 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
    1. npm install -g yarn
 3. You need the docker on you computer.
    1. [https://www.docker.com/get-started](https://www.docker.com/get-started)
-   2. You should run this command on command line interface with access to docker \( docker run --name postgresql -e POSTGRESQL\_USERNAME=postgres -e POSTGRESQL\_PASSWORD=**yourPassword**-e POSTGRESQL\_DATABASE=libQuality -p 5432:5432 -d bitnami/postgresql:latest   \).
+   2. You should run this command on command line interface with access to docker \( docker run --name postgresql -e POSTGRESQL\_USERNAME=postgres -e POSTGRESQL\_PASSWORD=**yourPassword** -e POSTGRESQL\_DATABASE=libQuality -p 5432:5432 -d bitnami/postgresql:latest   \).
       1. You must have change the password and input then on JSON file to back end access the postgres.
 4. **You need clone the back end project:**
 
