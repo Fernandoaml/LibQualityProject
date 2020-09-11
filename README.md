@@ -7,7 +7,7 @@ description: >-
 
 # LibQuality
 
--&gt; Back End GitHub Link: [https://github.com/Fernandoaml/LibQuality\_BackEnd/](https://github.com/Fernandoaml/LibQuality_BackEnd/)
+-&gt; Back End GitHub Link: [https://github.com/Fernandoaml/LibQuality\_BackEnd/](https://github.com/Fernandoaml/libquality_backend)
 
 -&gt; Front End GitHub Link: [https://github.com/Fernandoaml/LibQuality\_FrontEnd](https://github.com/Fernandoaml/LibQuality_FrontEnd)
 
@@ -88,7 +88,7 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
       1. You must have change the password and input then on JSON file to back end access the postgres.
 4. **You need clone the back end project:**
 
-   1. [https://github.com/Fernandoaml/LibQuality\_BackEnd/](https://github.com/Fernandoaml/LibQuality_BackEnd/)
+   1. [https://github.com/Fernandoaml/LibQuality\_BackEnd/](https://github.com/Fernandoaml/libquality_backend)
    2. Go to the folder and on command line interface you must be run this command: **yarn**
 
    \*\*\*\*
