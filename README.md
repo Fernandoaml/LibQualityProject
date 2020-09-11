@@ -9,7 +9,7 @@ description: >-
 
 -&gt; Back End GitHub Link: [https://github.com/Fernandoaml/LibQuality\_BackEnd/](https://github.com/Fernandoaml/libquality_backend)
 
--&gt; Front End GitHub Link: [https://github.com/Fernandoaml/libquality\_frontend/](https://github.com/Fernandoaml/libquality_frontend/tree/Develop)
+-&gt; Front End GitHub Link: [https://github.com/Fernandoaml/libquality\_frontend](https://github.com/Fernandoaml/libquality_frontend)
 
 
 
@@ -102,7 +102,7 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
    \*\*\*\*
 
 5. **You need clone the front end project:**
-   1. [https://github.com/Fernandoaml/libquality\_frontend/](https://github.com/Fernandoaml/libquality_frontend/tree/Develop)
+   1. [https://github.com/Fernandoaml/libquality\_frontend](https://github.com/Fernandoaml/libquality_frontend)
    2. Go to the folder and on command line interface you must be run this command: **yarn**
    3. **After run: yarn start**
    4. Access the front end 
