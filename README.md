@@ -33,7 +33,7 @@ this project was thought to grow health to fulfill new requirements. If need cha
 * In the same way, the back and are ready to be deployed. Was used TypeScript and Nodejs.
 * The persistence of data are ready to grow up or be change. Today we use Postgres DB, but it's ready to accept \(MySQL / MariaDB / Postgres / CockroachDB / SQLite / Microsoft SQL Server / Oracle / SAP Hana / sql.js\). Or NOSQL MongoDB.
 
-![](.gitbook/assets/untitled-diagram%20%281%29.jpg)
+![](.gitbook/assets/untitled-diagram%20%282%29.jpg)
 
 * \*\*We have a to-do point, is a lambda service or a microservice. To automate issues update caching the oldests and complete the graph. and with a cron schedule to run every day to update data.
 
