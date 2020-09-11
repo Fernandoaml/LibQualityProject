@@ -126,3 +126,12 @@ I chose the TypeORM to be a Data-Mapper ORM. Per many factors. Security \(this l
   * I will implement the test with Cypress library.
   * To do: End to End E2E Test.........................
 
+## API - Swagger UI
+
+* after of initialization of back-end. You will can access the Swagger page, to see the description of the API REST of LabQuality. The page as exemplification, as shown in the image below.
+  * [http://localhost:3333/swagger/](http://localhost:3333/swagger/) ![](.gitbook/assets/screenshot_7.png) 
+
+
+
+
+
